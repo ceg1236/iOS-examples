@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A344DE071A9BE85500D040F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE061A9BE85500D040F8 /* AppDelegate.swift */; };
+		A344DE091A9BE85500D040F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE081A9BE85500D040F8 /* ViewController.swift */; };
+		A344DE0C1A9BE85500D040F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A344DE0A1A9BE85500D040F8 /* Main.storyboard */; };
+		A344DE0E1A9BE85500D040F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A344DE0D1A9BE85500D040F8 /* Images.xcassets */; };
+		A344DE111A9BE85500D040F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A344DE0F1A9BE85500D040F8 /* LaunchScreen.xib */; };
+		A344DE1D1A9BE85500D040F8 /* InstaCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE1C1A9BE85500D040F8 /* InstaCloneTests.swift */; };
+		A344DE281A9BE86400D040F8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE261A9BE86400D040F8 /* Bolts.framework */; };
+		A344DE291A9BE86400D040F8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE271A9BE86400D040F8 /* Parse.framework */; };
+		A344DE2B1A9BE8B200D040F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE2A1A9BE8B200D040F8 /* AudioToolbox.framework */; };
+		A344DE2D1A9BE8B800D040F8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE2C1A9BE8B800D040F8 /* CFNetwork.framework */; };
+		A344DE2F1A9BE8BF00D040F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE2E1A9BE8BF00D040F8 /* CoreGraphics.framework */; };
+		A344DE311A9BE8C400D040F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE301A9BE8C400D040F8 /* CoreLocation.framework */; };
+		A344DE331A9BE8D500D040F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE321A9BE8D500D040F8 /* libz.dylib */; };
+		A344DE351A9BE8DF00D040F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE341A9BE8DF00D040F8 /* MobileCoreServices.framework */; };
+		A344DE371A9BE8E600D040F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE361A9BE8E600D040F8 /* QuartzCore.framework */; };
+		A344DE391A9BE8F000D040F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE381A9BE8F000D040F8 /* Security.framework */; };
+		A344DE3B1A9BE8F700D040F8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE3A1A9BE8F700D040F8 /* StoreKit.framework */; };
+		A344DE3D1A9BE8FF00D040F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE3C1A9BE8FF00D040F8 /* SystemConfiguration.framework */; };
+		A344DE3F1A9BE90C00D040F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A344DE3E1A9BE90C00D040F8 /* libsqlite3.dylib */; };
+		A344DE461A9C224C00D040F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE451A9C224C00D040F8 /* SignupViewController.swift */; };
+		A344DE481A9C260200D040F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE471A9C260200D040F8 /* LoginViewController.swift */; };
+		A344DE4A1A9CF7BC00D040F8 /* UserTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE491A9CF7BC00D040F8 /* UserTableTableViewController.swift */; };
+		A344DE4C1A9CFE7200D040F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344DE4B1A9CFE7200D040F8 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A344DE171A9BE85500D040F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A344DDF91A9BE85500D040F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A344DE001A9BE85500D040F8;
+			remoteInfo = InstaClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A344DE011A9BE85500D040F8 /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A344DE051A9BE85500D040F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A344DE061A9BE85500D040F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A344DE081A9BE85500D040F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A344DE0B1A9BE85500D040F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A344DE0D1A9BE85500D040F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A344DE101A9BE85500D040F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A344DE161A9BE85500D040F8 /* InstaCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A344DE1B1A9BE85500D040F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A344DE1C1A9BE85500D040F8 /* InstaCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneTests.swift; sourceTree = "<group>"; };
+		A344DE261A9BE86400D040F8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A344DE271A9BE86400D040F8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A344DE2A1A9BE8B200D040F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A344DE2C1A9BE8B800D040F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A344DE2E1A9BE8BF00D040F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A344DE301A9BE8C400D040F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A344DE321A9BE8D500D040F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A344DE341A9BE8DF00D040F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A344DE361A9BE8E600D040F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A344DE381A9BE8F000D040F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A344DE3A1A9BE8F700D040F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A344DE3C1A9BE8FF00D040F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A344DE3E1A9BE90C00D040F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A344DE401A9BE94B00D040F8 /* InstaClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaClone-Bridging-Header.h"; sourceTree = "<group>"; };
+		A344DE451A9C224C00D040F8 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = ../SignupViewController.swift; sourceTree = "<group>"; };
+		A344DE471A9C260200D040F8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		A344DE491A9CF7BC00D040F8 /* UserTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableTableViewController.swift; sourceTree = "<group>"; };
+		A344DE4B1A9CFE7200D040F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A344DDFE1A9BE85500D040F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344DE3F1A9BE90C00D040F8 /* libsqlite3.dylib in Frameworks */,
+				A344DE3D1A9BE8FF00D040F8 /* SystemConfiguration.framework in Frameworks */,
+				A344DE3B1A9BE8F700D040F8 /* StoreKit.framework in Frameworks */,
+				A344DE391A9BE8F000D040F8 /* Security.framework in Frameworks */,
+				A344DE371A9BE8E600D040F8 /* QuartzCore.framework in Frameworks */,
+				A344DE351A9BE8DF00D040F8 /* MobileCoreServices.framework in Frameworks */,
+				A344DE331A9BE8D500D040F8 /* libz.dylib in Frameworks */,
+				A344DE311A9BE8C400D040F8 /* CoreLocation.framework in Frameworks */,
+				A344DE2F1A9BE8BF00D040F8 /* CoreGraphics.framework in Frameworks */,
+				A344DE2D1A9BE8B800D040F8 /* CFNetwork.framework in Frameworks */,
+				A344DE2B1A9BE8B200D040F8 /* AudioToolbox.framework in Frameworks */,
+				A344DE291A9BE86400D040F8 /* Parse.framework in Frameworks */,
+				A344DE281A9BE86400D040F8 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A344DE131A9BE85500D040F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A344DDF81A9BE85500D040F8 = {
+			isa = PBXGroup;
+			children = (
+				A344DE3E1A9BE90C00D040F8 /* libsqlite3.dylib */,
+				A344DE321A9BE8D500D040F8 /* libz.dylib */,
+				A344DE3C1A9BE8FF00D040F8 /* SystemConfiguration.framework */,
+				A344DE3A1A9BE8F700D040F8 /* StoreKit.framework */,
+				A344DE381A9BE8F000D040F8 /* Security.framework */,
+				A344DE361A9BE8E600D040F8 /* QuartzCore.framework */,
+				A344DE341A9BE8DF00D040F8 /* MobileCoreServices.framework */,
+				A344DE301A9BE8C400D040F8 /* CoreLocation.framework */,
+				A344DE2E1A9BE8BF00D040F8 /* CoreGraphics.framework */,
+				A344DE2C1A9BE8B800D040F8 /* CFNetwork.framework */,
+				A344DE2A1A9BE8B200D040F8 /* AudioToolbox.framework */,
+				A344DE031A9BE85500D040F8 /* InstaClone */,
+				A344DE191A9BE85500D040F8 /* InstaCloneTests */,
+				A344DE021A9BE85500D040F8 /* Products */,
+				A344DE401A9BE94B00D040F8 /* InstaClone-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		A344DE021A9BE85500D040F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A344DE011A9BE85500D040F8 /* InstaClone.app */,
+				A344DE161A9BE85500D040F8 /* InstaCloneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A344DE031A9BE85500D040F8 /* InstaClone */ = {
+			isa = PBXGroup;
+			children = (
+				A344DE261A9BE86400D040F8 /* Bolts.framework */,
+				A344DE271A9BE86400D040F8 /* Parse.framework */,
+				A344DE0A1A9BE85500D040F8 /* Main.storyboard */,
+				A344DE4B1A9CFE7200D040F8 /* Utils.swift */,
+				A344DE081A9BE85500D040F8 /* ViewController.swift */,
+				A344DE471A9C260200D040F8 /* LoginViewController.swift */,
+				A344DE451A9C224C00D040F8 /* SignupViewController.swift */,
+				A344DE491A9CF7BC00D040F8 /* UserTableTableViewController.swift */,
+				A344DE061A9BE85500D040F8 /* AppDelegate.swift */,
+				A344DE0D1A9BE85500D040F8 /* Images.xcassets */,
+				A344DE0F1A9BE85500D040F8 /* LaunchScreen.xib */,
+				A344DE041A9BE85500D040F8 /* Supporting Files */,
+			);
+			path = InstaClone;
+			sourceTree = "<group>";
+		};
+		A344DE041A9BE85500D040F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A344DE051A9BE85500D040F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A344DE191A9BE85500D040F8 /* InstaCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A344DE1C1A9BE85500D040F8 /* InstaCloneTests.swift */,
+				A344DE1A1A9BE85500D040F8 /* Supporting Files */,
+			);
+			path = InstaCloneTests;
+			sourceTree = "<group>";
+		};
+		A344DE1A1A9BE85500D040F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A344DE1B1A9BE85500D040F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A344DE001A9BE85500D040F8 /* InstaClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A344DE201A9BE85500D040F8 /* Build configuration list for PBXNativeTarget "InstaClone" */;
+			buildPhases = (
+				A344DDFD1A9BE85500D040F8 /* Sources */,
+				A344DDFE1A9BE85500D040F8 /* Frameworks */,
+				A344DDFF1A9BE85500D040F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaClone;
+			productName = InstaClone;
+			productReference = A344DE011A9BE85500D040F8 /* InstaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A344DE151A9BE85500D040F8 /* InstaCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A344DE231A9BE85500D040F8 /* Build configuration list for PBXNativeTarget "InstaCloneTests" */;
+			buildPhases = (
+				A344DE121A9BE85500D040F8 /* Sources */,
+				A344DE131A9BE85500D040F8 /* Frameworks */,
+				A344DE141A9BE85500D040F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A344DE181A9BE85500D040F8 /* PBXTargetDependency */,
+			);
+			name = InstaCloneTests;
+			productName = InstaCloneTests;
+			productReference = A344DE161A9BE85500D040F8 /* InstaCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A344DDF91A9BE85500D040F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tangent Circles";
+				TargetAttributes = {
+					A344DE001A9BE85500D040F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A344DE151A9BE85500D040F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A344DE001A9BE85500D040F8;
+					};
+				};
+			};
+			buildConfigurationList = A344DDFC1A9BE85500D040F8 /* Build configuration list for PBXProject "InstaClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A344DDF81A9BE85500D040F8;
+			productRefGroup = A344DE021A9BE85500D040F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A344DE001A9BE85500D040F8 /* InstaClone */,
+				A344DE151A9BE85500D040F8 /* InstaCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A344DDFF1A9BE85500D040F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344DE0C1A9BE85500D040F8 /* Main.storyboard in Resources */,
+				A344DE111A9BE85500D040F8 /* LaunchScreen.xib in Resources */,
+				A344DE0E1A9BE85500D040F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A344DE141A9BE85500D040F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A344DDFD1A9BE85500D040F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344DE481A9C260200D040F8 /* LoginViewController.swift in Sources */,
+				A344DE461A9C224C00D040F8 /* SignupViewController.swift in Sources */,
+				A344DE091A9BE85500D040F8 /* ViewController.swift in Sources */,
+				A344DE071A9BE85500D040F8 /* AppDelegate.swift in Sources */,
+				A344DE4A1A9CF7BC00D040F8 /* UserTableTableViewController.swift in Sources */,
+				A344DE4C1A9CFE7200D040F8 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A344DE121A9BE85500D040F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344DE1D1A9BE85500D040F8 /* InstaCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A344DE181A9BE85500D040F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A344DE001A9BE85500D040F8 /* InstaClone */;
+			targetProxy = A344DE171A9BE85500D040F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A344DE0A1A9BE85500D040F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A344DE0B1A9BE85500D040F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A344DE0F1A9BE85500D040F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A344DE101A9BE85500D040F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A344DE1E1A9BE85500D040F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A344DE1F1A9BE85500D040F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A344DE211A9BE85500D040F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaClone",
+				);
+				INFOPLIST_FILE = InstaClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaClone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A344DE221A9BE85500D040F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaClone",
+				);
+				INFOPLIST_FILE = InstaClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaClone-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A344DE241A9BE85500D040F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaClone.app/InstaClone";
+			};
+			name = Debug;
+		};
+		A344DE251A9BE85500D040F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaClone.app/InstaClone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A344DDFC1A9BE85500D040F8 /* Build configuration list for PBXProject "InstaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A344DE1E1A9BE85500D040F8 /* Debug */,
+				A344DE1F1A9BE85500D040F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A344DE201A9BE85500D040F8 /* Build configuration list for PBXNativeTarget "InstaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A344DE211A9BE85500D040F8 /* Debug */,
+				A344DE221A9BE85500D040F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A344DE231A9BE85500D040F8 /* Build configuration list for PBXNativeTarget "InstaCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A344DE241A9BE85500D040F8 /* Debug */,
+				A344DE251A9BE85500D040F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A344DDF91A9BE85500D040F8 /* Project object */;
+}

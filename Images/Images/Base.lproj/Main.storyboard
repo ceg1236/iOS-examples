@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Images" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gita-005b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yeU-nM-wvY">
+                                <rect key="frame" x="16" y="0.0" width="288" height="538"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwJ-Nk-S0R">
+                                <rect key="frame" x="82" y="538" width="157" height="30"/>
+                                <state key="normal" title="Change Image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="change:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sbr-aV-NQB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wwJ-Nk-S0R" secondAttribute="trailing" constant="65" id="1Tp-Bz-1KV"/>
+                            <constraint firstItem="yeU-nM-wvY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="HWH-Mz-bXG"/>
+                            <constraint firstItem="yeU-nM-wvY" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="SIb-eC-qR3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yeU-nM-wvY" secondAttribute="trailing" id="VK3-e8-0Ye"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yeU-nM-wvY" secondAttribute="bottom" constant="30" id="VxP-Ae-Yar"/>
+                            <constraint firstItem="wwJ-Nk-S0R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="66" id="ret-ae-77O"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wwJ-Nk-S0R" secondAttribute="bottom" id="u7a-CX-FSN"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="gita" destination="yeU-nM-wvY" id="mtp-rg-0gH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5KE-AW-mpE">
+            <objects>
+                <viewController id="TPK-6p-kNa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="309-54-Wxp"/>
+                        <viewControllerLayoutGuide type="bottom" id="uEM-J4-duj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MfC-iW-6J4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Goldberg_6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QUQ-mb-WEa">
+                                <rect key="frame" x="36" y="28" width="248" height="428"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QUQ-mb-WEa" firstAttribute="leading" secondItem="MfC-iW-6J4" secondAttribute="leadingMargin" constant="20" id="lgQ-8g-Peh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QUQ-mb-WEa" secondAttribute="trailing" constant="20" id="n2b-5a-UWa"/>
+                            <constraint firstItem="QUQ-mb-WEa" firstAttribute="top" secondItem="309-54-Wxp" secondAttribute="bottom" constant="8" id="p1T-A1-bEs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aq3-OG-Urt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="526" y="87"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Goldberg_6.jpg" width="2736" height="3648"/>
+        <image name="gita-005b.jpg" width="375" height="505"/>
+    </resources>
+</document>
